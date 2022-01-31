@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "QuickLinks",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon128.png"
+    },
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+               "128": "icon128.png" },
+    "description": "Quickly save links in a quick access list either from the current tab or entered by user. Saved to local storage. Option to delete one or all.",
+    "permissions": [
+        "tabs"
+    ]
+}
